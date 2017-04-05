@@ -16,6 +16,12 @@
   		<groupId>com.nilefine.parent</groupId>
   		<artifactId>NileFinModel</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
+  		<exclusions>
+  			<exclusion>
+  				<groupId>org.hibernate</groupId>
+  				<artifactId>hibernate-annotations</artifactId>
+  			</exclusion>
+  		</exclusions>
   	</dependency>
   </dependencies>
 </project>

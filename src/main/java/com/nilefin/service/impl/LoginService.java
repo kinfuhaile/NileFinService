@@ -1,18 +1,11 @@
 package com.nilefin.service.impl;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.nilefin.model.User;
-import com.nilefin.persistent.dao.abst.AbstractNileFinDao;
-import com.nilefin.persistent.dao.impl.UserDao;
-import com.nilefin.persistent.database.config.MySQLRepositoryConfig;
-import com.nilefin.service.facad.AccountServiceInterface;
+import com.nilefin.persistent.dao.interfaces.UserDao;
 
 @Service
 @Transactional
