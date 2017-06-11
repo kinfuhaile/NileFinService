@@ -43,6 +43,11 @@ public class LoginService{
 	}
 
 	
+	
+	public User findUserByName(String userName){
+		return userDao.findByUsername(userName);
+		
+	}
 
 
 

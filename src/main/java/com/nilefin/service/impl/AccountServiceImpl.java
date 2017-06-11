@@ -75,4 +75,12 @@ public class AccountServiceImpl implements AccountService {
 			errors.rejectValue("username", "error.duplicate", new String[] { username }, null);
 		}
 	}
+
+	@Override
+	public User getUserAccount(String userName) {
+		// TODO Auto-generated method stub
+		return userDao.findByUsername(userName);
+	}
+	
+	
 }

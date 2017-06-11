@@ -16,4 +16,7 @@ public interface AccountService {
 
 
 	public boolean registerAccount(User account, String password, Errors errors);
+	public User getUserAccount(String userName);
+
+
 }
